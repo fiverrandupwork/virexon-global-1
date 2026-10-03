@@ -1,0 +1,1025 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #06142e 0%,
+        #0a2a66 50%,
+        #091220 100%
+    );
+
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #D4AF37;
+}
+nav a{
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #D4AF37;
+}
+.hero{
+    text-align: center;
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.hero button{
+    background: #D4AF37;
+    color: black;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover{
+    transform: translateY(-3px);
+}
+.about{
+    background: white;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 40px;
+    color: #0a2a66;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 18px;
+    max-width: 900px;
+    margin: 15px auto;
+    line-height: 1.8;
+    color: #333;
+}
+.courses{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.courses h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.course-box{
+    background: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.course-box h3{
+    color: #0a2a66;
+    margin-bottom: 20px;
+}
+
+.course-box p{
+    font-size: 18px;
+    color: #333;
+}
+.learn{
+    background: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.learn h2{
+    color: #0a2a66;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background: #f8f8f8;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.card h3{
+    color: #0a2a66;
+}
+
+.card p{
+    color: #333;
+    line-height: 1.6;
+}
+.card{
+    background: #f8f8f8;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.admission{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.admission h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+form{
+    max-width: 700px;
+    margin: auto;
+}
+
+form input{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+form button{
+    background: #D4AF37;
+    color: black;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.payment{
+    background: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.payment h2{
+    color: #0a2a66;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.payment-box{
+    max-width: 700px;
+    margin: auto;
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.payment-box h3{
+    color: #0a2a66;
+}
+
+.payment-box p{
+    font-size: 18px;
+    color: #333;
+}
+.contact{
+    background: white;
+    text-align: center;
+    padding: 80px 20px;
+    color: #0a2a66;
+}
+
+.contact h2,
+.contact p{
+    color: #0a2a66;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.payment-details{
+    padding: 80px 20px;
+    text-align: center;
+    background: white;
+}
+
+.payment-details h2{
+    color: #0a2a66;
+    margin-bottom: 40px;
+}
+
+.payment-card{
+    max-width: 600px;
+    margin: 20px auto;
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.payment-card h3{
+    color: #D4AF37;
+}
+form select,
+form textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+form textarea{
+    height: 120px;
+    resize: none;
+}
+.whatsapp-btn{
+
+    position: fixed;
+
+    right: 20px;
+
+    bottom: 20px;
+
+    background: #25D366;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 20px;
+
+    border-radius: 50px;
+
+    font-weight: bold;
+
+}
+form h3{
+    color: white;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.upload-label{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+}
+/* PROFESSIONAL FORM DESIGN */
+
+form{
+    max-width: 750px;
+    margin: auto;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+form input,
+form select,
+form textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus{
+    outline: none;
+    border-color: #D4AF37;
+}
+
+form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+form button:hover{
+    transform: scale(1.03);
+}
+
+form label{
+    color: white;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.payment-card{
+    transition: 0.3s;
+}
+
+.payment-card:hover{
+    transform: translateY(-8px);
+}
+
+.course-box{
+    transition: 0.3s;
+}
+
+.course-box:hover{
+    transform: translateY(-8px);
+}
+
+header{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.whatsapp-btn{
+    box-shadow: 0 0 20px rgba(37,211,102,0.5);
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.1);
+}
+.contact a{
+    color: #0a2a66;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover{
+    color: #D4AF37;
+}
+.contact i{
+    color: #25D366;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.custom-upload{
+    display:block;
+    background:#D4AF37;
+    color:black;
+    padding:15px;
+    border-radius:12px;
+    cursor:pointer;
+    text-align:center;
+    font-weight:bold;
+}
+
+.custom-upload input{
+    display:none;
+}
+.hero{
+    background-image:
+    linear-gradient(
+    rgba(6,20,46,0.7),
+    rgba(6,20,46,0.7)),
+    url("images/tiktokshop.jpg");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-align:center;
+    color:white;
+    padding:120px 20px;
+}
+*{
+    box-sizing: border-box;
+}
+
+form button{
+    width: 100%;
+    display: block;
+    margin: 25px auto 0;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+form input,
+form select,
+form textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+form button{
+    width: 100%;
+    background: #D4AF37;
+    color: black;
+    border: none;
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background: #e5c04a;
+    transform: translateY(-3px);
+}
+.payment-details{
+    background: white;
+    padding: 60px 20px 20px;
+}
+
+.contact{
+    background: white;
+    padding: 20px 20px 60px;
+}
+.founder-sign{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.founder-sign h3{
+    font-family: cursive;
+    font-size: 36px;
+    color: #D4AF37;
+    margin-bottom: 5px;
+}
+
+.founder-sign p{
+    color: #0a2a66;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.founder-sign{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.founder-sign p{
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.founder-sign h3{
+    margin: 5px 0;
+    font-family: cursive;
+    font-size: 36px;
+    color: #D4AF37;
+}
+
+.founder-sign span{
+    display: block;
+    margin-top: 3px;
+    color: #0a2a66;
+    font-weight: bold;
+    font-size: 15px;
+}
+.founder-sign::after{
+    content:"";
+    display:block;
+    width:120px;
+    height:2px;
+    background:#D4AF37;
+    margin:15px auto 0;
+}
+.hero{
+    background-image:
+    linear-gradient(
+    rgba(6,20,46,0.6),
+    rgba(6,20,46,0.6)),
+    url("images/tiktokshop.jpg");
+
+    min-height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero p{
+    font-size: 24px;
+    max-width: 700px;
+}
+.contact{
+    background:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.contact h2{
+    color:#0a2a66;
+    font-size:42px;
+}
+
+.contact-text{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.contact-box{
+    max-width:600px;
+    margin:auto;
+}
+
+.contact-item{
+    background:#f8f8f8;
+    padding:20px;
+    margin:15px 0;
+    border-radius:15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.contact-item:hover{
+    transform:translateY(-5px);
+}
+
+.contact-item i{
+    font-size:26px;
+    color:#25D366;
+    margin-right:10px;
+}
+
+.contact-item a{
+    color:#0a2a66;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+.contact{
+    background: #f8f9fc;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact h2{
+    color: #0a2a66;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-box{
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.contact p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.contact a{
+    color: #0a2a66;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover{
+    color: #D4AF37;
+}
+
+.contact i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.fa-whatsapp{
+    color: #25D366;
+}
+
+.fa-envelope{
+    color: #D4AF37;
+}
+
+.contact{
+    background: linear-gradient(
+        135deg,
+        black 0%,
+        #f5f8ff 50%,
+        #eef4ff 100%
+    );
+
+    text-align: center;
+    padding: 70px 20px;
+}
+.contact{
+    background: linear-gradient(
+        135deg,
+        black,
+        #0a2a66
+    );
+
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact h2,
+.contact p,
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+    color: #D4AF37;
+}
+.contact h2,
+.contact h3{
+    color: white;
+}
+.contact-title,
+.help-title{
+    color: white;
+    font-weight: bold;
+}
+.contact h2,
+.contact h3{
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.contact h2,
+.contact h3{
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.contact-text{
+    color: white;
+}
+.contact-text{
+    color: rgba(255,255,255,0.85);
+    font-size: 18px;
+    line-height: 1.8;
+}
+.contact,
+.contact p,
+.contact-text{
+    color: white !important;
+}
+header{
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f3f6fb
+    );
+
+    border-bottom: 2px solid #D4AF37;
+}
+nav a{
+    color: #0a2a66;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #D4AF37;
+}
+header img{
+    width: 180px;
+}
+header img{
+    width: 250px;
+    max-width: 90%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-tag{
+    color: #D4AF37;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.response-time{
+    color: white;
+    opacity: 0.8;
+}
+.fee-price{
+    font-size: 40px;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+.fee-note{
+    color: #555;
+    font-size: 17px;
+}
+.payment-card{
+    border-left: 5px solid #D4AF37;
+}
+.why-us{
+    background:#fff;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.why-us h2{
+    color:#0a2a66;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.why-card{
+    background:#f8f9fc;
+    padding:30px;
+    border-radius:18px;
+    transition:.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card h3{
+    color:#0a2a66;
+}
+
+.why-card p{
+    color:#555;
+}
+.certificate{
+    padding:80px 20px;
+    text-align:center;
+    background:#0a2a66;
+    color:white;
+}
+
+.certificate h2{
+    color:#D4AF37;
+    font-size:40px;
+}
+
+.certificate p{
+    max-width:850px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+.faq{
+    padding:80px 20px;
+    background:white;
+}
+
+.faq h2{
+    text-align:center;
+    color:#0a2a66;
+    margin-bottom:40px;
+}
+
+.faq-item{
+    max-width:900px;
+    margin:20px auto;
+    background:#f8f9fc;
+    padding:25px;
+    border-radius:15px;
+}
+
+.faq-item h3{
+    color:#0a2a66;
+}
+
+.faq-item p{
+    color:#555;
+}
+footer{
+    background:#091220;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.footer-links{
+    margin-bottom:20px;
+}
+
+.footer-links a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+
+.footer-links a:hover{
+    color:#D4AF37;
+}
+
+.social-links{
+    margin:20px 0;
+}
+
+.social-links a{
+    color:white;
+    font-size:24px;
+    margin:0 12px;
+}
+
+.social-links a:hover{
+    color:#D4AF37;
+}
+/* Certificate Section */
+
+.certificate{
+
+    background:white;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.certificate h2{
+
+    color:#0a2a66;
+
+    font-size:42px;
+
+}
+
+.certificate p{
+
+    color:#555;
+
+    max-width:700px;
+
+    margin:20px auto;
+
+    line-height:1.8;
+
+}
+
+.certificate button{
+
+    background:#D4AF37;
+
+    color:black;
+
+    border:none;
+
+    padding:16px 35px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.certificate button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* Popup */
+
+.certificate-popup{
+
+    display:none;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.85);
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+}
+
+.certificate-popup img{
+
+    width:75%;
+
+    max-width:850px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 40px rgba(255,255,255,.2);
+
+}
+
+.close-popup{
+
+    position:absolute;
+
+    top:30px;
+
+    right:40px;
+
+    color:white;
+
+    font-size:45px;
+
+    cursor:pointer;
+
+}
+button{
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-4px);
+}
+
+input,
+select,
+textarea{
+    transition:0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    box-shadow:0 0 15px rgba(212,175,55,.4);
+}
+.founder-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #D4AF37;
+    margin-bottom:20px;
+}
